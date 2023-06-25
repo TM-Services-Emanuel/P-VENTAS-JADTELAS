@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" printOrder="Horizontal" pageWidth="200" pageHeight="85" columnWidth="183" leftMargin="17" rightMargin="0" topMargin="0" bottomMargin="0" uuid="5c6c3527-1501-4edf-8332-2157c5f732d9">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="56"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="jadtelas.xml"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value="YXJ0aWN1bG8gLDE1LDE1LGQ2Y2EwYWYzLWQ0ZGYtNGM4Ny05ODJiLThhZTkzMzFhYWNiODs="/>
+	<parameter name="codArt" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT *
+FROM articulo
+WHERE articulo.art_codigo = $P{codArt}]]>
+	</queryString>
+	<field name="art_codigo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_codigo"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_codigo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="familia_fam_codigo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="familia_fam_codigo"/>
+		<property name="com.jaspersoft.studio.field.label" value="familia_fam_codigo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="laboratorio_lab_codigo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="laboratorio_lab_codigo"/>
+		<property name="com.jaspersoft.studio.field.label" value="laboratorio_lab_codigo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="proveedor_pro_codigo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="proveedor_pro_codigo"/>
+		<property name="com.jaspersoft.studio.field.label" value="proveedor_pro_codigo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_codbarra" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_codbarra"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_codbarra"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_descripcion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_descripcion"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_descripcion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_principio" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_principio"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_principio"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_accion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_accion"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_accion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_costo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_costo"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_costo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_costoiva" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="art_costoiva"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_costoiva"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_iva" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_iva"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_iva"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_stock" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.name" value="art_stock"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_stock"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_stockminimo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_stockminimo"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_stockminimo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_vencimiento" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_vencimiento"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_vencimiento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_ganancia" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_ganancia"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_ganancia"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_descuento" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_descuento"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_descuento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_preciopublico" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_preciopublico"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_preciopublico"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_precioventa" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_precioventa"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_precioventa"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_tipoventa" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_tipoventa"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_tipoventa"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_tipodesc" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_tipodesc"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_tipodesc"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_activo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_activo"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_activo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_indicador" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_indicador"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_indicador"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_ventaM" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="art_ventaM"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_ventaM"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_cantM" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_cantM"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_cantM"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="art_precioventaM" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="art_precioventaM"/>
+		<property name="com.jaspersoft.studio.field.label" value="art_precioventaM"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usu" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="usu"/>
+		<property name="com.jaspersoft.studio.field.label" value="usu"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="articulo"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<title>
+		<band height="83" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<componentElement>
+				<reportElement stretchType="ContainerBottom" x="5" y="13" width="145" height="36" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="b1c61c91-a98c-4dac-8466-413eb5b772cc">
+					<property name="com.jaspersoft.studio.unit.barWidth" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code39 (Extended)" drawText="true" checksumRequired="false" rotation="None">
+					<jr:codeExpression><![CDATA[$F{art_codbarra}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<textField>
+				<reportElement x="40" y="49" width="120" height="11" uuid="ba99b78c-38f9-40ef-99c2-a8a0c902193d"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{art_descripcion}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,##0.###;#,##0.###-">
+				<reportElement x="40" y="60" width="120" height="12" uuid="d8fe451c-5fae-40ba-ae65-eafa5f065a10">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{art_precioventa}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="60" width="35" height="12" uuid="d5e8f05a-ca89-4205-979d-faebe6ece85c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Top">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Precio:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="49" width="35" height="11" uuid="0a346329-a951-4ecf-9afb-30079fbf13dd">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Top">
+					<font fontName="Arial" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Descrip:]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>
